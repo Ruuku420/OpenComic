@@ -2,21 +2,21 @@
 
 body .night-mode
 {
-	color: #fff;
-	background-color: #212121;
+	color: #ebdbb2;
+	background-color: #282828;
 }
 
 .night-mode .dialog-text .menu-simple-text,
 .night-mode .tracking-set-message,
 .night-mode .input
 {
-	color: #fff;
+	color: #ebdbb2;
 }
 
 .night-mode .content-right > div
 {
 	/*background-color: #303030;*/
-	background-color: #141414;
+	background-color: #3c3836;
 }
 
 .night-mode .content-right,
@@ -34,12 +34,12 @@ body .night-mode
 .night-mode .reading-body .r-img.blank > div,
 .night-mode .reading-lens .r-img.blank > div
 {
-	background-color: #212121;
+	background-color: #32302f;
 }
 
 .night-mode .reading-number
 {
-	color: #fff;
+	color: #ebdbb2;
 }
 
 .night-mode .reading-skip > div
@@ -50,7 +50,7 @@ body .night-mode
 
 .night-mode .simple-list
 {
-	background-color: #212121;
+	background-color: #3c3836;
 	border-bottom: 1px solid #414141;
 }
 
@@ -67,7 +67,7 @@ body .night-mode
 .night-mode .reading-left
 {
 	border-bottom: 1px solid #414141;
-	color: #fff;
+	color: #ebdbb2;
 }
 
 .night-mode .content-left > div
@@ -82,7 +82,7 @@ body .night-mode
 
 .night-mode .reading-bookmark > span, .night-mode .menu-tracking-sites > span, .night-mode .menu-tracking-sites-empty > span
 {
-	color: #fff;
+	color: #ebdbb2;
 }
 
 .night-mode .hover > div
