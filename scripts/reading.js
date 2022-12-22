@@ -1332,7 +1332,7 @@ function zoomOut(animation = true, center = false)
 	if(zoomMoveData.active)
 		return;
 
-	if(currentScale > 0.2)
+	if(currentScale > 1) // Do not scroll out of 100%
 		currentScale /= 1.25;
 
 	applyScale(animation, currentScale, center, true);
