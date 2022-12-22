@@ -2620,26 +2620,30 @@ function read(path, index = 1, end = false)
 
 	});
 
-	$(window).on('keydown', function(e) {
+	$(window).on('keydown', function(e) { 
 
 		if(onReading)
 		{
-			if(e.keyCode == 37)
+			if(e.keyCode == 37) // left arrow
 			{
 				goPrevious();
 			}
-			else if(e.keyCode == 38 && !readingViewIs('scroll'))
+			else if(e.keyCode == 38 && !readingViewIs('scroll')) // up arrow
 			{
 				goStart();
 			}
-			else if(e.keyCode == 39)
+			else if(e.keyCode == 39) // right arrow
 			{
 				goNext();
 			}
-			else if(e.keyCode == 40 && !readingViewIs('scroll'))
+			else if(e.keyCode == 40 && !readingViewIs('scroll')) // down arrow
 			{
 				goEnd();
 			}
+                        else if(e.keyCode == 77) // 'm'
+                        {
+                                reading.resetZoom();
+                        }
 		}
 		
 	})
